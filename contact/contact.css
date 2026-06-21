@@ -149,15 +149,15 @@ body{
 .back-btn:hover{
     color:white;
 }
-@media(max-width:768px){
+
+@media screen and (max-width:768px){
 
 .contact-container{
-    width:95%;
     padding:25px;
 }
 
 .contact-header h1{
-    font-size:32px;
+    font-size:35px;
 }
 
 .contact-grid{
@@ -170,11 +170,6 @@ body{
 
 .btn{
     width:100%;
-}
-
-.back-btn{
-    display:block;
-    margin-top:20px;
 }
 
 }
