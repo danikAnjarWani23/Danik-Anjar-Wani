@@ -82,3 +82,49 @@ object-fit:cover;
 border-radius:50%;
 border:6px solid #fbbf24;
 }
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+nav a{
+    margin:0;
+}
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    height:auto;
+    padding:40px 20px;
+}
+
+.left h1{
+    font-size:38px;
+}
+
+.left h2{
+    font-size:22px;
+}
+
+.right img{
+    width:220px;
+    height:220px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:block;
+    width:100%;
+}
+
+}
